@@ -1,0 +1,83 @@
+Question 1: 
+
+        int grade = 88;
+        if(grade >= 60 && grade <65){
+            if (grade >=63){
+                grade = 65;
+            }
+        }
+        else if(grade > 65 && grade <70){
+            if (grade >=68){
+                grade = 70;
+            }
+        } 
+        else if(grade >= 70 && grade <75){
+            if (grade >=73){
+                grade = 75;
+            }
+        }
+        else if(grade > 75 && grade <80){
+            if (grade >=78){
+                grade = 80;
+            }
+        } 
+        else if(grade >= 80 && grade <85){
+            if (grade >=83){
+                grade = 85;
+            }
+        }
+        else if(grade > 85 && grade <90){
+            if (grade >=88){
+                grade = 90;
+            }
+        } 
+        else if(grade >= 90 && grade <95){
+            if (grade >=93){
+                grade = 95;
+            }
+        }
+        else if(grade > 95 && grade <100){
+            if (grade >=88){
+                grade = 100;
+            }
+        }
+        System.out.print(grade);
+    }
+======================================================================
+Question 2: 
+        for(int i = 0; i <=100;i++){
+            if(i%5 == 0 && i%3 == 0){
+                System.out.println("FizzBuzz");
+            }
+            else if(i%5 == 0){
+                System.out.println("Buzz");
+            }else if(i%3 == 0 ){
+                System.out.println("Fizz");
+            }
+            else
+            System.out.println(i);
+        }
+===================================================================
+Question 3a:
+    public static int vowelCount(String name){
+        int count = 0;
+        for (int i = 0; i < name.length(); i++)
+        {
+            if (name.charAt(i) == 'o' || name.charAt(i) == 'y' || name.charAt(i) == 'i'
+                    || name.charAt(i) == 'a' || name.charAt(i) == 'u'|| name.charAt(i) == 'e' )
+            {
+                count++;
+            }
+        }
+        return count;
+    }
+
+------------------------------
+Question 3b: 
+    public static int max(int num1, int num2){
+        if(num1 > num2){
+            return num1;
+        }
+        else
+            return num2;
+    }
