@@ -1,0 +1,83 @@
+
+import java.util.Scanner;
+
+public class home01
+{
+    public static void main(String[] args)
+    {
+        int num;
+        System.out.println("Enter an Integer number:");
+        Scanner input = new Scanner(System.in);
+        num = input.nextInt();
+
+        int a =num +2 ;
+        if ( a % 5 == 0 )
+
+            System.out.println(a);
+        else
+            System.out.println(num);
+
+    }
+}
+ ex2
+
+public class home02{
+
+    public static void main(String[] args)
+    {
+        int t=0;
+        while(t<101)
+        {
+            if(t%3==0&&t%5==0)
+
+            {
+                System.out.println("Fizzbuzz");
+            }
+            else if (t%3==0)
+            {
+                System.out.println("Fizz");
+            }
+            else if (t%5==0)
+            {
+                System.out.println("Buzz");
+            }
+
+
+            else
+            {
+                System.out.println(t);
+            }
+
+
+            t++;
+        }
+    }
+}
+
+ex3
+
+
+public class home03
+{
+
+        public static void main(String[] args)
+        {
+
+            int a = 150;
+            int b = 23;
+            if (a > b)
+            {
+                System.out.println("max num =" +a);
+            }
+            else
+            {
+                System.out.println("max num = "+b);
+            }
+        }
+
+}
+
+^X
+^X
+^x
+
